@@ -2,20 +2,14 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "spClientId": {
-      "value": "$APP_ID"
+    "webAppName": {
+      "value": "$WEBAPPNAME2"
     },
-    "spClientSecret": {		
-      "value": "$PASSWORD"
+    "repositoryUrl": {		
+      "value": "$REPOSITORY_URL"
     },
-    "linuxAdminUsername": {
-      "value": "Student"
-    },
-    "linuxAdminPassword": {		
-      "value": "Pa55w.rd1234"
-    },
-    "linuxSSHPublicKey": {		
-      "value": "$PUBLIC_KEY_REGEX"
+    "branch": {
+      "value": "master"
     }
   }
 }
